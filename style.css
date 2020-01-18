@@ -1,125 +1,84 @@
-<!DOCTYPE html>
-<html lang="en">
-	<head>
-		<meta content="text/html;charset=utf-8" http-equiv="Content-Type">
-		<meta content="utf-8" http-equiv="encoding">
-		<title>My Prime Academy Application Submission</title>
-		<link rel="stylesheet" type="text/css" href="style.css">
-	</head>
-    <body>
-    	<div id="resume">
-    		<div id="header">
-    			<div id="name">
-    				<h1>Nick</h1>
-    				<h1>Wallander</h1>
-    			</div>
-    			<div id="objective">
-    				<h3 id="objectiveh3">Career Objective</h3>
-    				<p>Discapined, driven, and determined I will acomplish any task before me. Knowledge is power but understanding is the key to that power. My passion is programming, to me it's not just a job. In my free time is regularly learn new technologies and keep up to date with the latest tech.</p>
-    			</div>
-    		</div>
-    		<div id="row">
-    			<h4>Contact</h4>
-    			<div id="column">
-    				<h3>Phone:</h3>
-    				<p>(530)-588-1430</p>
-    			</div>
-    			<div id="column">
-    				<h3>Email:</h3>
-    				<p>nickwallander@gamil.com</p>
-    			</div>
-    			<div id="column">
-    				<h3>Address:</h3>
-    				<p>3946 Barbados ct.</p>
-    				<p>Chico, CA 95973</p>
-    			</div>
-    		</div>
-    		<div id="experience">
-    			<h1>Work Experience</h1>
-    			<div id="row">
-    				<h4>Nanotech Energy</h4>
-    				<div id="column">
-    					<h3>Position:</h3>
-    					<p>Research and Development</p>
-    				</div>
-    				<div id="column">
-    					<h3>Dates of Employment:</h3>
-    					<p>May 2018 - Current</p>
-    				</div>
-    				<div id="column">
-    					<h3>Location:</h3>
-    					<p>Chico, CA</p>
-    				</div>
-     			</div>
-     			<ul id="duties">
-     				<li>Work with a team to reasearch and develop new technologies and report findings to lead. </li>
-     				<li>Stream-line processes, cut costs, and boost effeicency for scaled production of our products</li>
-     				<li>Label and catolog all our experiments for replication, inventory, and improvements.</li>
-     			</ul>
-     		<div id="row">
-    			<h4>Sky Zone</h4>
-    			<div id="column">
-    					<h3>Position:</h3>
-    					<p>Cashier</p>
-    				</div>
-    				<div id="column">
-    					<h3>Dates of Employment:</h3>
-    					<p>April 2019 - December 2019</p>
-    				</div>
-    				<div id="column">
-    					<h3>Location:</h3>
-    					<p>Pensacola, FL</p>
-     				</div>
-     			</div>
-     		</div>
-     			<ul id="duties">
-     				<li>Sell memberships and jump tickets to customers and verify eligibility.</li>
-     				<li>Rapidly assist customers while still comunicating with co-workers</li>
-     				<li>Deal with customer complains in a way to maintain customer satisfaction.</li>
-     			</ul>
-     			<div id="row">
-    			<h4>Bounce Pro</h4>
-    			<div id="column">
-    				<h3>Position:</h3>
-    				<p>Crew Manager</p>
-    			</div>
-    			<div id="column">
-    				<h3>Dates of Employment:</h3>
-    				<p>June 2016 -  Agust 2018</p>
-    			</div>
-    			<div id="column">
-    				<h3>Location:</h3>
-    				<p>Chico, CA</p>
-     			</div>
-     			<ul id="duties">
-     				<li>Manage my crew as well as satilie crews insuring delivery security and punctuality.</li>
-     				<li>Keep track of funds spend and procured as well as inventoy condition.</li>
-     				<li>Planned routes and delivery times to guarentee on time setup and tear down.</li>
-     			</ul>
-    			
-    		</div>
-    			<h1>Technology Experience</h1>
-    		
-    			<h4>Languages Learned</h4>
-    			<dl>
-    				<dt>HTML/CSS</dt>
-    				<dd>- Taken in college</dd>
-    				<dt>JAVA</dt>
-    				<dd>- taken in college</dd>
-    				<dt>C</dt>
-    				<dd>- taken in college</dd>
-    				<dt>PHP</dt>
-    				<dd>- self learned</dd>
-    			</dl>
-    			<h4>Personal Projects</h4>
-    			<dl>
-    				<dt>Cryptocurrency Mining Rig</dt>
-    				<dd>- GPU based mining rig designed to mine the crypto currency Etherium</dd>
-    				<dt>VR Gamming Computer</dt>
-    				<dd>- A PC designed to run vertual reality games and many other beefy games</dd>
-    				<dt>Apache Server</dt>
-    				<dd>- Using a Raspberry Pi 4 and Apache I hosted a project website</dd>
-    			</dl>
-    	</div>
-    </body>
-</html>
+#resume{
+	margin-top: 20px;
+	margin-right: 10%;
+	margin-left: 10%;
+	color: #276363;
+	/*color: #77ACA2;*/
+
+}
+
+
+#header{
+	background-color: #DBD3CA;
+	columns: 1px 2;
+	padding: 5px 15px 5px 15px;
+	border-radius: 5px;
+}
+
+#objectiveh3{                                 /*fix later name <<<*/
+	border-style: solid;
+    border-bottom: thick line #ff0000;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    width: 40%;
+}
+h4 {
+	border-style: solid;
+    border-bottom: thick line #ff0000;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    width: 20%;
+}
+#resume{
+	float:left;
+	 font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+	  font-size: 24px; font-style: normal; font-variant: normal; 
+	  font-weight: 700; line-height: 26.4px; 
+} 
+
+h3 { 
+	font-family: Futura, "Trebuchet MS", Arial, sans-serif; 
+	font-size: 14px; 
+	font-style: normal; 
+	font-variant: normal; 
+	font-weight: 700; 
+	line-height: 15.4px; 
+}
+
+ p { 
+ 	font-family: Futura, "Trebuchet MS", Arial, sans-serif; 
+ 	font-size: 14px; 
+ 	font-style: normal; 
+ 	font-variant: normal; 
+ 	font-weight: 400; 
+ 	line-height: 20px;
+ }
+
+#column {
+	float: left;
+	width: 33.33%;
+}
+
+#row:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+#experience {
+	text-align: center;
+}
+#duties {
+	text-align: left;
+	font-size: 18px;
+	font-weight: 400;
+}
+dl{
+	text-align: left;
+	font-size: 18px;
+	font-weight: 400;
+}
+#languages {
+	columns: 1px 4;
+}
